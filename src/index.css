@@ -1,0 +1,86 @@
+@font-face {
+  font-family: euclid;
+  src: url(./assets/fonts/euclid_regular.ttf);
+}
+@font-face {
+  font-family: euclid_bold;
+  src: url(./assets/fonts/euclid_bold.ttf);
+}
+@font-face {
+  font-family:euclid_medium;
+  src: url(./assets/fonts/euclid_medium.ttf);
+}
+@font-face {
+  font-family: euclid_light;
+  src: url(./assets/fonts/euclid_light.ttf);
+}
+@font-face {
+  font-family: euclid_semi_bold;
+  src: url(./assets/fonts/euclid_semi_bold.ttf);
+}
+@font-face {
+  font-family: Freeroad ;
+  src: url(./assets/fonts/Freeroad\Bold.ttf);
+}
+@font-face {
+  font-family: poppions-r;
+  src: url(./assets/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: poppions-m;
+  src: url(./assets/fonts/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: poppions-b;
+  src: url(./assets/fonts/Poppins-Bold.ttf);
+}
+
+#purchase{
+  background: linear-gradient(90deg, #CFA2E8, #637FEA);
+}
+#corse{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#an::after{
+  position: absolute;
+  content: '';
+  width: 0%;
+  height: 1.5px;
+  background-color: #2f57ef;
+  left: 50;
+  bottom: 12px;
+  border-radius: 50px;
+}
+
+#an:hover::after{
+  width: 30%;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+}
+
+#a::after{
+  position: absolute;
+  content: '';
+  width: 0%;
+  height: 1px;
+  background-color: #2f57ef;
+  left: 0;
+  bottom: 0;
+  border-radius: 50px;
+}
+
+#a:hover::after{
+  width: 100%;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+}
+
+#bg{
+  background-image: url("https://ik.imagekit.io/jjyo3gsee/Rainbow%20Themes/rainbow%20img/Background%20(1).png?updatedAt=1723694542963");
+  background-size: cover;
+}
